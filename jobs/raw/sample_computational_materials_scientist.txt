@@ -1,0 +1,22 @@
+Title: Computational Materials Scientist - Advanced Steels
+Company: Example Automotive R&D Center
+Location: United States or Canada
+Salary: 130000 USD
+
+We are seeking a computational materials scientist to develop physics-based models
+for deformation, damage, and fracture in advanced steels used in automotive
+lightweighting and crash-critical components. The role will combine crystal
+plasticity, finite element implementation, constitutive model calibration, and
+experimental validation using stress-strain data, DIC, EBSD, and thermal
+measurements.
+
+Preferred qualifications include a PhD in mechanical engineering, materials
+science, computational mechanics, or a related field. Experience with CPFEM,
+damage mechanics, ductile fracture, strain-rate effects, temperature rise during
+plastic deformation, and microstructure-sensitive modeling is strongly preferred.
+Experience with Python, Fortran, Abaqus, LS-DYNA, or other finite element tools
+is valuable.
+
+The successful candidate will work with automotive engineering teams to reduce
+trial-and-error testing, improve validated material cards, and support predictive
+simulation workflows for forming and crashworthiness.

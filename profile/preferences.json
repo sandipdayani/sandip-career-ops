@@ -1,0 +1,57 @@
+{
+  "target_countries": ["Canada", "USA", "United States"],
+  "relocation": true,
+  "salary_targets": {
+    "usa_industry_usd": 125000,
+    "canada_industry_cad": 100000
+  },
+  "tracks": {
+    "industry": {
+      "description": "Industry R&D, CAE, simulation, materials modeling, automotive, aerospace, nuclear, defense, and simulation software roles.",
+      "salary_floor_required": true
+    },
+    "academic": {
+      "description": "Postdoc, research scientist, research associate, lecturer, university lab engineer, and academic research roles.",
+      "salary_floor_required": false
+    },
+    "hybrid": {
+      "description": "National labs, government labs, applied research institutes, university-industry programs, and corporate research centers.",
+      "salary_floor_required": false
+    }
+  },
+  "preferred_industries": [
+    "automotive",
+    "aerospace",
+    "nuclear",
+    "materials",
+    "defense",
+    "energy",
+    "simulation software",
+    "advanced manufacturing"
+  ],
+  "preferred_roles": [
+    "Computational Materials Scientist",
+    "Materials Modeling Engineer",
+    "Crystal Plasticity Engineer",
+    "ICME Engineer",
+    "Computational Mechanics Engineer",
+    "Damage and Fracture Mechanics Engineer",
+    "CAE Research Engineer",
+    "Crashworthiness Engineer",
+    "Forming Simulation Engineer",
+    "Constitutive Modeling Engineer",
+    "Research Scientist",
+    "Postdoctoral Researcher",
+    "Research Associate",
+    "Nuclear Materials Researcher",
+    "Aerospace Structures Researcher"
+  ],
+  "reject_or_low_priority": [
+    "generic mechanical design with no simulation depth",
+    "maintenance engineering",
+    "technician-only experimental work",
+    "pure sales",
+    "pure project management with no technical modeling",
+    "roles below salary floor unless academic or strategically valuable"
+  ]
+}

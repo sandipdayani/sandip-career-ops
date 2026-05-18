@@ -1,0 +1,28 @@
+Title: Computer Modeling & Simulation Specialist / Engineer
+Company: General Dynamics Land Systems-Canada
+Location: London, Ontario, Canada
+Employment type: 1-year fixed-term contract
+Source: https://www.linkedin.com/jobs/view/4406861529/
+
+The role supports computer modeling and simulation for GDLS-C vehicle and
+subsystem design teams and internal R&D personnel. Responsibilities include
+running and interpreting simulations for military vehicles, subsystems,
+competitor vehicles, and vendor products; supporting optimum design and
+requirements compliance; and improving modeling/simulation methods and
+procedures.
+
+Key work includes advanced simulations of military vehicles and subsystems,
+structural analysis, material fatigue simulations, simulation support for
+product development, technical reporting, R&D validation testing support,
+test-plan/report preparation, data reduction and analysis, technical support to
+design engineers, and new product development simulations.
+
+Required background includes a university degree or college diploma, at least
+3 years relevant experience, 1 to 3 years in CAE preferably in automotive,
+defense, or aerospace, FEA software knowledge, automotive subsystem knowledge,
+stress analysis, mechanics, dynamics, mathematics, communication skills, and
+ability to travel.
+
+Preferred qualifications include P.Eng or eligibility, advanced university
+degree, NX NASTRAN, Altair FEA tools, heavy off-road vehicle engineering,
+defense design standards, and Glyphworks.

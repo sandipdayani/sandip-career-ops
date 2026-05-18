@@ -1,0 +1,181 @@
+{
+  "version": "1.0",
+  "min_score_to_report": 3.0,
+  "locations": [
+    "Canada",
+    "United States",
+    "USA",
+    "remote"
+  ],
+  "priority_keywords": [
+    "crystal plasticity",
+    "cpfem",
+    "cpfe",
+    "constitutive modeling",
+    "material model",
+    "damage mechanics",
+    "fracture mechanics",
+    "failure prediction",
+    "advanced high-strength steel",
+    "ahss",
+    "forming simulation",
+    "crashworthiness",
+    "finite element",
+    "fea",
+    "umat",
+    "vumat",
+    "fortran",
+    "python",
+    "ebsd",
+    "dic",
+    "ir thermography",
+    "computational materials",
+    "icme",
+    "nuclear materials",
+    "aerospace materials"
+  ],
+  "search_queries": [
+    {
+      "name": "crystal_plasticity_materials",
+      "query": "\"crystal plasticity\" jobs Canada OR \"United States\" materials"
+    },
+    {
+      "name": "computational_materials_steel",
+      "query": "\"computational materials scientist\" steel job Canada OR USA"
+    },
+    {
+      "name": "constitutive_damage_fracture",
+      "query": "\"constitutive modeling\" damage fracture job Canada OR USA"
+    },
+    {
+      "name": "ahss_failure_prediction",
+      "query": "\"advanced high-strength steel\" \"failure prediction\" job"
+    },
+    {
+      "name": "material_model_crashworthiness",
+      "query": "\"material model\" crashworthiness job LS-DYNA"
+    },
+    {
+      "name": "nuclear_materials_modeling",
+      "query": "\"nuclear materials\" \"computational modeling\" job Canada OR USA"
+    },
+    {
+      "name": "aerospace_damage_mechanics",
+      "query": "\"damage mechanics\" \"aerospace materials\" job"
+    },
+    {
+      "name": "postdoc_crystal_plasticity",
+      "query": "\"postdoc\" \"crystal plasticity\" materials"
+    }
+  ],
+  "company_watchlist": [
+    {
+      "name": "General Motors",
+      "industry": "automotive",
+      "career_url": "https://search-careers.gm.com/en/jobs/",
+      "queries": ["materials", "simulation", "crash", "steel", "research"]
+    },
+    {
+      "name": "Ford",
+      "industry": "automotive",
+      "career_url": "https://corporate.ford.com/careers/job-opportunities.html",
+      "queries": ["materials", "simulation", "crash", "research"]
+    },
+    {
+      "name": "Stellantis",
+      "industry": "automotive",
+      "career_url": "https://careers.stellantis.com/",
+      "queries": ["materials", "simulation", "crash", "research"]
+    },
+    {
+      "name": "Tesla",
+      "industry": "automotive",
+      "career_url": "https://www.tesla.com/careers/search/",
+      "queries": ["materials", "simulation", "crash", "steel"]
+    },
+    {
+      "name": "Rivian",
+      "industry": "automotive",
+      "career_url": "https://careers.rivian.com/careers-home/jobs",
+      "queries": ["materials", "simulation", "crash"]
+    },
+    {
+      "name": "Magna",
+      "industry": "automotive",
+      "career_url": "https://jobs.magna.com/",
+      "queries": ["materials", "simulation", "crash", "forming"]
+    },
+    {
+      "name": "ArcelorMittal",
+      "industry": "steel",
+      "career_url": "https://corporate.arcelormittal.com/careers",
+      "queries": ["steel", "research", "materials", "forming"]
+    },
+    {
+      "name": "Cleveland-Cliffs",
+      "industry": "steel",
+      "career_url": "https://www.clevelandcliffs.com/careers",
+      "queries": ["steel", "research", "metallurgy", "materials"]
+    },
+    {
+      "name": "Boeing",
+      "industry": "aerospace",
+      "career_url": "https://jobs.boeing.com/search-jobs/materials",
+      "queries": ["materials", "fracture", "simulation", "research"]
+    },
+    {
+      "name": "GE Aerospace",
+      "industry": "aerospace",
+      "career_url": "https://careers.geaerospace.com/global/en/search-results?keywords=materials",
+      "queries": ["materials", "simulation", "fracture", "research"]
+    },
+    {
+      "name": "Pratt & Whitney",
+      "industry": "aerospace",
+      "career_url": "https://careers.rtx.com/global/en/pratt-whitney-search-results",
+      "queries": ["materials", "simulation", "fracture", "research"]
+    },
+    {
+      "name": "Canadian Nuclear Laboratories",
+      "industry": "nuclear",
+      "career_url": "https://www.cnl.ca/careers/",
+      "queries": ["materials", "nuclear", "simulation", "research"]
+    },
+    {
+      "name": "Ontario Power Generation",
+      "industry": "nuclear",
+      "career_url": "https://www.opg.com/careers/",
+      "queries": ["materials", "nuclear", "mechanical", "simulation"]
+    },
+    {
+      "name": "Oak Ridge National Laboratory",
+      "industry": "national lab",
+      "career_url": "https://jobs.ornl.gov/",
+      "queries": ["materials", "computational", "mechanics", "postdoc"]
+    },
+    {
+      "name": "Argonne National Laboratory",
+      "industry": "national lab",
+      "career_url": "https://www.anl.gov/hr/careers",
+      "queries": ["materials", "computational", "mechanics", "postdoc"]
+    },
+    {
+      "name": "NIST",
+      "industry": "government lab",
+      "career_url": "https://www.nist.gov/careers",
+      "queries": ["materials", "computational", "mechanics", "postdoc"]
+    },
+    {
+      "name": "Ansys",
+      "industry": "simulation software",
+      "career_url": "https://careers.ansys.com/",
+      "queries": ["materials", "simulation", "mechanics", "ls-dyna"]
+    },
+    {
+      "name": "Altair",
+      "industry": "simulation software",
+      "career_url": "https://www.altair.com/careers/",
+      "queries": ["materials", "simulation", "mechanics", "crash"]
+    }
+  ]
+}

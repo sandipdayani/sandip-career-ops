@@ -1,0 +1,82 @@
+name: Daily Job Discovery
+
+on:
+  schedule:
+    # 12:00 UTC is 8:00 AM in Toronto during daylight saving time.
+    - cron: "0 12 * * *"
+  workflow_dispatch:
+    inputs:
+      min_score:
+        description: "Minimum score to keep"
+        required: false
+        default: "3.2"
+      limit:
+        description: "Maximum leads to scan"
+        required: false
+        default: "60"
+
+permissions:
+  contents: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    env:
+      SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+      GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+      GOOGLE_CSE_ID: ${{ secrets.GOOGLE_CSE_ID }}
+      BING_SEARCH_KEY: ${{ secrets.BING_SEARCH_KEY }}
+      MIN_SCORE: ${{ github.event.inputs.min_score || '3.2' }}
+      LEAD_LIMIT: ${{ github.event.inputs.limit || '60' }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Validate scripts and config
+        run: |
+          python -m py_compile scripts/career_ops.py scripts/discover_jobs.py
+          python -m json.tool config/job_sources.json >/dev/null
+          python -m json.tool rubrics/scoring_model.json >/dev/null
+          python -m json.tool profile/preferences.json >/dev/null
+
+      - name: Run job discovery
+        run: |
+          mkdir -p jobs/discovered logs
+          if [ -z "${SERPAPI_KEY}" ]; then
+            echo "::warning::SERPAPI_KEY is not configured. Running career-page fallback only."
+          fi
+
+          python scripts/discover_jobs.py \
+            --provider serpapi career-pages \
+            --limit "${LEAD_LIMIT}" \
+            --min-score "${MIN_SCORE}" \
+            --summary-file jobs/discovered/latest-summary.md \
+            --debug \
+            --track | tee logs/latest-job-discovery.log
+
+      - name: Add run summary
+        if: always()
+        run: |
+          if [ -f jobs/discovered/latest-summary.md ]; then
+            cat jobs/discovered/latest-summary.md >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Commit discovery results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add jobs/raw jobs/evaluated jobs/discovered jobs/tracker.csv logs/latest-job-discovery.log
+
+          if git diff --cached --quiet; then
+            echo "No discovery changes to commit."
+          else
+            git commit -m "chore: update daily job discovery"
+            git push
+          fi
