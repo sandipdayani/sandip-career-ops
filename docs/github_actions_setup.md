@@ -4,6 +4,25 @@
 
 Use a private GitHub repository for this project. The files contain your resume strategy, salary targets, application tracker, and job-search history.
 
+## Push This Project To GitHub
+
+Create a new **private** GitHub repository named something like:
+
+```text
+sandip-career-ops
+```
+
+Then run these commands from your Mac:
+
+```bash
+cd /Users/sandipdayani/Documents/Codex/2026-05-15/https-github-com-sandipdayani-sandipdayani-github/sandip-career-ops
+
+git remote add origin https://github.com/sandipdayani/sandip-career-ops.git
+git push -u origin main
+```
+
+If Git asks for a password, do not use your GitHub account password. Use a GitHub personal access token or GitHub CLI authentication.
+
 ## What The Workflow Does
 
 The workflow in `.github/workflows/daily-job-discovery.yml` runs every day at 12:00 UTC, which is 8:00 AM Toronto time during daylight saving time.
@@ -43,6 +62,16 @@ BING_SEARCH_KEY
 ```
 
 The workflow can run without these keys, but it will mostly rely on public company career pages, which are less reliable.
+
+## Required Workflow Permission
+
+Because the workflow commits new job results back to the repo, enable write permission:
+
+```text
+Repository -> Settings -> Actions -> General -> Workflow permissions -> Read and write permissions
+```
+
+Then save.
 
 ## First Manual Test
 
