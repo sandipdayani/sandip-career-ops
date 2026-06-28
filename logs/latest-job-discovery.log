@@ -11,7 +11,7 @@ Magna                            yes        0     0     0  loaded, but no normal
 ArcelorMittal                    no         0     0     0  page did not load or blocked request
 Cleveland-Cliffs                 yes       59    35    12  leads found
 Boeing                           yes      491    48    48  leads found
-New leads scanned: 1
+New leads scanned: 0
 Leads kept above threshold: 0
 Summary: /home/runner/work/sandip-career-ops/sandip-career-ops/jobs/discovered/latest-summary.md
 No strong leads found.
