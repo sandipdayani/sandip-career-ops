@@ -1,6 +1,6 @@
 # Daily Job Discovery Summary
 
-- Run time: `2026-08-17T12:29:24`
+- Run time: `2026-08-18T12:31:20`
 - Providers: `serpapi, career-pages`
 - Minimum score kept: `3.20`
 - New leads scanned: `0`
@@ -11,7 +11,7 @@
 - Companies checked: `9`
 - Pages loaded: `6`
 - Pages failed: `3`
-- Links found: `814`
+- Links found: `818`
 - Candidate job links: `85`
 - Relevant leads before scoring: `60`
 
