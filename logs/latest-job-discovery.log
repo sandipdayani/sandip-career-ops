@@ -1,4 +1,4 @@
-Career-page scan: 9 companies checked, 6 pages loaded, 3 failed, 828 links found, 85 candidate job links, 60 relevant leads.
+Career-page scan: 18 companies checked, 9 pages loaded, 9 failed, 593 links found, 69 candidate job links, 37 relevant leads.
 
 Company                          Load   Links  Cand Leads  Reason
 --------------------------------------------------------------------------------------------------------------
@@ -10,8 +10,17 @@ Rivian                           yes       50     0     0  loaded, but links did
 Magna                            yes        0     0     0  loaded, but no normal HTML job links found; likely JavaScript-rendered career site
 ArcelorMittal                    no         0     0     0  page did not load or blocked request
 Cleveland-Cliffs                 yes       59    37    13  leads found
-Boeing                           yes      483    47    47  leads found
-New leads scanned: 0
+Boeing                           no         0     0     0  page did not load or blocked request
+GE Aerospace                     yes       13     0     0  loaded, but links did not look like relevant job postings
+Pratt & Whitney                  no         0     0     0  page did not load or blocked request
+Canadian Nuclear Laboratories    no         0     0     0  page did not load or blocked request
+Ontario Power Generation         no         0     0     0  page did not load or blocked request
+Oak Ridge National Laboratory    yes       49    31    24  leads found
+Argonne National Laboratory      no         0     0     0  page did not load or blocked request
+NIST                             yes      135     0     0  loaded, but links did not look like relevant job postings
+Ansys                            no         0     0     0  page did not load or blocked request
+Altair                           yes       51     0     0  loaded, but links did not look like relevant job postings
+New leads scanned: 24
 Leads kept above threshold: 0
 Summary: /home/runner/work/sandip-career-ops/sandip-career-ops/jobs/discovered/latest-summary.md
 No strong leads found.
