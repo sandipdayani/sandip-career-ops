@@ -11,9 +11,11 @@ Magna                            yes        0     0     0  loaded, but no normal
 ArcelorMittal                    no         0     0     0  page did not load or blocked request
 Cleveland-Cliffs                 yes       58    36    13  leads found
 Boeing                           yes      483    47    47  leads found
-New leads scanned: 0
-Leads kept above threshold: 0
+New leads scanned: 3
+Leads kept above threshold: 1
+Discovery CSV: /home/runner/work/sandip-career-ops/sandip-career-ops/jobs/discovered/20261008-job-leads.csv
 Summary: /home/runner/work/sandip-career-ops/sandip-career-ops/jobs/discovered/latest-summary.md
-No strong leads found.
-Meaning: the tool either found no new job URLs, or found URLs that scored below your threshold.
-Best fix: use a search API key, especially SERPAPI_KEY, because many company career pages hide jobs behind JavaScript.
+
+Score  Track      Recommendation            Company                       Title
+---------------------------------------------------------------------------------------------------------
+ 3.30  industry   Maybe / monitor           Novelis                       Modeling Scientist
