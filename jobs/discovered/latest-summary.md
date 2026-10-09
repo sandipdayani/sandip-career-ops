@@ -1,11 +1,10 @@
 # Daily Job Discovery Summary
 
-- Run time: `2026-10-08T18:15:50`
+- Run time: `2026-10-09T17:49:58`
 - Providers: `serpapi, career-pages`
 - Minimum score kept: `3.20`
-- New leads scanned: `3`
-- Leads kept: `1`
-- Discovery CSV: `jobs/discovered/20261008-job-leads.csv`
+- New leads scanned: `1`
+- Leads kept: `0`
 
 ## Career Page Scan
 
@@ -13,11 +12,16 @@
 - Pages loaded: `6`
 - Pages failed: `3`
 - Links found: `827`
-- Candidate job links: `84`
+- Candidate job links: `89`
 - Relevant leads before scoring: `60`
 
-## Ranked Leads
+## Result
 
-| Score | Track | Recommendation | Company | Title | Location | Report |
-|---:|---|---|---|---|---|---|
-| 3.30 | industry | Maybe / monitor | Novelis | [Modeling Scientist](https://www.linkedin.com/jobs/view/modeling-scientist-at-novelis-4403124354) | Kennesaw, GA | `jobs/evaluated/20261008-1815-novelis-modeling-scientist.md` |
+No strong leads were kept in this run.
+
+Most likely causes:
+
+- no search API key was configured;
+- career pages were blocked or JavaScript-rendered;
+- found links were category pages rather than full job descriptions;
+- found jobs scored below the threshold.
