@@ -1,9 +1,9 @@
 # Daily Job Discovery Summary
 
-- Run time: `2026-10-11T17:09:13`
+- Run time: `2026-10-12T20:41:32`
 - Providers: `serpapi, career-pages`
 - Minimum score kept: `3.20`
-- New leads scanned: `0`
+- New leads scanned: `1`
 - Leads kept: `0`
 
 ## Career Page Scan
