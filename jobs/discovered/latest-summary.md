@@ -1,11 +1,10 @@
 # Daily Job Discovery Summary
 
-- Run time: `2026-11-08T17:28:45`
+- Run time: `2026-11-09T21:48:55`
 - Providers: `serpapi, career-pages`
 - Minimum score kept: `3.20`
 - New leads scanned: `2`
-- Leads kept: `1`
-- Discovery CSV: `jobs/discovered/20261108-job-leads.csv`
+- Leads kept: `0`
 
 ## Career Page Scan
 
@@ -16,8 +15,13 @@
 - Candidate job links: `84`
 - Relevant leads before scoring: `60`
 
-## Ranked Leads
+## Result
 
-| Score | Track | Recommendation | Company | Title | Location | Report |
-|---:|---|---|---|---|---|---|
-| 3.34 | industry | Maybe / monitor | Novelis Global R&T | [Modeling Scientist](https://careers-novelis.icims.com/jobs/52095/modeling-scientist/job) | Kennesaw, GA | `jobs/evaluated/20261108-1728-novelis-global-r-t-modeling-scientist.md` |
+No strong leads were kept in this run.
+
+Most likely causes:
+
+- no search API key was configured;
+- career pages were blocked or JavaScript-rendered;
+- found links were category pages rather than full job descriptions;
+- found jobs scored below the threshold.
