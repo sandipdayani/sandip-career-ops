@@ -1,11 +1,10 @@
 # Daily Job Discovery Summary
 
-- Run time: `2026-11-14T17:32:28`
+- Run time: `2026-11-15T18:20:16`
 - Providers: `serpapi, career-pages`
 - Minimum score kept: `3.20`
-- New leads scanned: `2`
-- Leads kept: `1`
-- Discovery CSV: `jobs/discovered/20261114-job-leads.csv`
+- New leads scanned: `1`
+- Leads kept: `0`
 
 ## Career Page Scan
 
@@ -13,11 +12,16 @@
 - Pages loaded: `5`
 - Pages failed: `4`
 - Links found: `667`
-- Candidate job links: `88`
+- Candidate job links: `83`
 - Relevant leads before scoring: `60`
 
-## Ranked Leads
+## Result
 
-| Score | Track | Recommendation | Company | Title | Location | Report |
-|---:|---|---|---|---|---|---|
-| 3.34 | industry | Maybe / monitor | Novelis | [Modeling Scientist at Novelis Kennesaw, GA](https://onelastswim.com/vacancy/job/modeling-scientist-at-novelis-kennesaw-ga-UmtTSTVucE10a0NhbDNCbTdkNHo3dEJM) | Kennesaw, GA | `jobs/evaluated/20261114-1732-novelis-modeling-scientist-at-novelis-kennesaw-ga.md` |
+No strong leads were kept in this run.
+
+Most likely causes:
+
+- no search API key was configured;
+- career pages were blocked or JavaScript-rendered;
+- found links were category pages rather than full job descriptions;
+- found jobs scored below the threshold.
